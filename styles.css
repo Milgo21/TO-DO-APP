@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;200&family=Roboto&family=Sacramento&display=swap');
+
+*{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Merriweather', serif; */
+     /* font-family: 'Montserrat', sans-serif; */
+     font-family: 'Roboto', sans-serif; 
+    }
+html{
+    background-color: #B7B78A;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+button{
+    margin-top: 10px;
+    color: red;
+    background-color: #FFD56F;
+    border: none;
+    border-radius: 2px;
+    height: 2rem;
+    width: 6rem;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.todo{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+}
+.task{
+    /* display: flex; */
+    /* flex-direction: column; */
+    background-color: aqua;
+    border-radius: 7px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    flex-flow: column-reverse;
+    /* margin-bottom: 10px; */
+}
+.complete-btn, .delete-btn, .edit-btn{
+    border: none;
+    margin-bottom: 5px;
+    width: 8rem;
+
+}
+input{
+    border-radius: 2px;
+    border: none;
+    height: 2rem;
+}
+#moved{
+    background-color: black;
+}

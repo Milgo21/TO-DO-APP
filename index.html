@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="todo">
+      <h1>todos</h1>
+      <form action="">
+        <label for="title">Task title</label>
+        <input type="text" id="title" name="title" />
+
+        <label for="descriptiom">Description</label>
+        <input type="text" id="description" name="description" />
+
+        <label for="date">Completion date</label>
+        <input type="date" name="date" id="date" required />
+
+        <button type="submit">Add task</button>
+    </form>
+        <h3 id="completed-number">0 Tasks completed</h3>
+
+      <div id="task-container"></div>
+      <div id="completed-task-container">
+        <!-- <h1>These are the completed tasks</h1> -->
+        <ul>
+
+        </ul>
+      </div>
+
+      <ul></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
